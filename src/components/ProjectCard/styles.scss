@@ -1,0 +1,35 @@
+.project-card {
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.25rem;
+
+    &__img {
+        height: 10rem;
+        width: 100%;
+        background-color: gray;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+
+    &__tags {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        padding: 0.5rem;
+
+        .tag {
+            background-color: #b8bc86;
+            padding: 0.25rem 1rem;
+            margin: 0.1rem;
+            border-radius: 1rem;
+            color: black;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+    }
+
+    &__content {
+        padding: 0.5rem;
+    }
+}

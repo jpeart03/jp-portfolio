@@ -1,27 +1,51 @@
 ---
-import ProjectCard from '../components/ProjectCard.jsx'
+import MainHead from '../components/MainHead.astro'
+import IndexHeader from '../components/IndexHeader/index.jsx'
+import ProjectCard from '../components/ProjectCard/index.jsx'
 let title = 'Jim Peart - Web Developer';
+let cards = new Array(7).fill("card");
 ---
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{title}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <MainHead title={title} />
+  <style lang="scss">
+      .wrapper {
+        max-width: 100rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 2rem;
+        padding-left: 2rem;
+      }
 
-    <style lang="scss">
-    </style>
+      .grid {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+      }
+
+      .header {
+        grid-column: 1 / 5;
+        grid-row: 1;
+        text-align: center;
+      }
+
+      .card {
+        grid-column: span 1;
+      }
+  </style>
 </head>
 <body>
-    <main>
-        <header>
-            <div>
-                <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-                <h1>Jim Peart</h1>
-
-                <ProjectCard astro={title}/>
-            </div>
-        </header>
-    </main>
+  <main class="wrapper">
+    <div class="grid">
+      <div class="header">
+        <IndexHeader />
+      </div>
+      {cards.map(c => (
+        <div class="card">
+          <ProjectCard /> 
+        </div>
+      ))}
+    </div>
+  </main>
 </body>
 </html>
