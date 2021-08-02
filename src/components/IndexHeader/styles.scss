@@ -1,9 +1,16 @@
-h1 {
-    color: black;
-    margin-bottom: 0;
-}
-
-p {
-    color: gray;
-    margin-top: 0;
+.ih {
+    text-align: center;
+    &-logo {
+        width: 7rem;
+    }
+    & > h1 {
+        color: black;
+        margin-bottom: 0;
+        font-size: 3rem;
+    }
+    & > p {
+        color: gray;
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
 }

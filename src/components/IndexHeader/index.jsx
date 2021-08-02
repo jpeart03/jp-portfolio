@@ -2,7 +2,7 @@ import "./styles.scss";
 
 const IndexHeader = () => {
     return (
-        <header className="ih-header">
+        <header className="ih">
             <img className="ih-logo" src="/assets/logo.svg"></img>
             <h1>Jim Peart</h1>
             <p>Web Developer</p>
