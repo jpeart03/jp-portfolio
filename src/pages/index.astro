@@ -3,8 +3,10 @@ import MainHead from '../components/MainHead.astro'
 import IndexHeader from '../components/IndexHeader/index.jsx'
 import ProjectCard from '../components/ProjectCard/index.jsx'
 
-let title = 'Jim Peart - Web Developer';
-let cards = new Array(7).fill("card");
+const title = 'Jim Peart - Web Developer';
+const projects = Astro.fetchContent('./project/*.md')
+  .filter(({published_on}) => !!published_on)
+  .sort((a, b) => new Date(b.published_on) - new Date(a.published_on));
 ---
 <html lang="en">
 <head>
@@ -37,9 +39,9 @@ let cards = new Array(7).fill("card");
     <main class="main">
       <h2>Projects</h2>
       <div class="grid">
-      {cards.map(c => (
+      {projects.map(p => (
         <div class="card">
-          <ProjectCard /> 
+          <ProjectCard project={p}/> 
         </div>
       ))}
       </div>

@@ -1,24 +1,17 @@
 import "./styles.scss";
 
-const ProjectCard = (props) => {
-    const tags = ["C#", "SQL Server", "ASP.NET Blazor", "JS", "CSS"];
-
+const ProjectCard = ({ project }) => {
     return (
         <div className="project-card">
             <div className="project-card__img"></div>
             <div className="project-card__tags">
-                {tags.map((t) => (
+                {project.tags.map((t) => (
                     <span className="tag">{t}</span>
                 ))}
             </div>
             <div className="project-card__content">
-                <h2>Title</h2>
-                <p>
-                    Description: Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Donec lorem neque, molestie sed suscipit
-                    in, interdum at velit. Curabitur convallis nisl eget eros
-                    sodales, in ullamcorper eros pulvinar.
-                </p>
+                <h2>{project.title}</h2>
+                <p>{project.description}</p>
             </div>
         </div>
     );

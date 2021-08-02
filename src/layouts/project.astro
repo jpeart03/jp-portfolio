@@ -1,0 +1,21 @@
+---
+import MainHead from '../components/MainHead.astro'
+import IndexHeader from '../components/IndexHeader/index.jsx'
+import ProjectCard from '../components/ProjectCard/index.jsx'
+
+const {content} = Astro.props;
+---
+<html lang="en">
+<head>
+  <MainHead title={content.title} />
+  <style lang="scss">
+     
+  </style>
+</head>
+<body>
+    <main class="main">
+      <h2>{content.title}</h2>
+      <slot></slot>
+    </main>
+</body>
+</html>
