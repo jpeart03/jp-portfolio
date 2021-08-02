@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap");
-@use 'base';
+
+$color-accent: #b8bc86;
+$heading-font: "Space Mono", monospace;
+$body-font: "Work Sans", sans-serif;
 
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: $body-font;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $body-font;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: $heading-font;
+  font-family: $heading-font;
 }
