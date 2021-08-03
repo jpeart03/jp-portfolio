@@ -4,7 +4,7 @@ title: YODL Music Prelaunch
 client:
     - Pepper Construction Company
 img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
-description: A pre-launch web application to guage interest in a forthcoming music application
+description: A pre-launch web application to guage interest in a forthcoming music application.
 published_on: 2021-02-01 00:00:00
 tags:
     - html

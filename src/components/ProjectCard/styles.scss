@@ -10,6 +10,12 @@
         background-color: gray;
         border-top-left-radius: 0.25rem;
         border-top-right-radius: 0.25rem;
+        & > img {
+            border-radius: inherit;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
     }
 
     &__tags {
