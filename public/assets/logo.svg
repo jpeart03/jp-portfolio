@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="48px" height="43px" viewBox="0 0 48 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Logo</title>
     <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" fill="#1A1A1A" cx="35" cy="35" r="35"></circle>
-        <g id="Group" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
-            <polygon id="Path-Copy-3" fill="#FFFFFF" points="23 30 45 17 45 13 23 1.0658141e-14 23 4 41 15 23 26"></polygon>
-            <path d="M9.19859155,42 C13.0633803,42 15.9964789,40.9874826 17.9978873,38.9624478 C19.9992958,36.9374131 21,34.0361613 21,30.2586926 L21,30.2586926 L21,3.55271368e-15 L16.1492958,3.55271368e-15 L16.1492958,29.9082058 C16.1492958,32.6147427 15.6021127,34.6057024 14.5077465,35.8810848 C13.4133803,37.1564673 11.643662,37.7941586 9.19859155,37.7941586 C6.37887324,37.7941586 3.79577465,37.2197497 1.44929577,36.0709318 L1.44929577,36.0709318 L0,39.8970793 C2.76056338,41.2990264 5.82676056,42 9.19859155,42 Z" id="J" fill="#B8BC86"></path>
+        <g id="Group" transform="translate(0.000000, 0.000000)">
+            <polygon id="Path-Copy-3" fill="#B00D25" fill-rule="nonzero" points="26 30 48 17 48 13 26 1.0658141e-14 26 4 44 15 26 26"></polygon>
+            <polygon id="Path-Copy-4" fill="#191C23" fill-rule="nonzero" transform="translate(11.000000, 34.500000) rotate(-180.000000) translate(-11.000000, -34.500000) " points="22 43 22 39 0 26 0 30"></polygon>
+            <rect id="Rectangle" fill="#B00D25" x="22" y="0" width="4" height="43"></rect>
+            <rect id="Rectangle-Copy" fill="#191C23" x="22" y="0" width="4" height="43"></rect>
         </g>
     </g>
 </svg>

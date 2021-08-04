@@ -8,7 +8,7 @@
   &__img {
     height: 12rem;
     width: 100%;
-    background-color: gray;
+    background-color: #cfd8dc;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     & > img {
@@ -22,11 +22,11 @@
   &__tags {
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #191c23;
     padding: 0.5rem;
 
     .tag {
-      background-color: #b8bc86;
+      background-color: #eceff1;
       padding: 0.25rem 1rem;
       margin: 0.1rem;
       border-radius: 1rem;
