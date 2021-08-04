@@ -1,5 +1,5 @@
 # My portfolio site
 
-## Made with :fire: [Astro](https://astro.build)
+## Made with :rocket: [Astro](https://astro.build)
 
-## Hosted with [Firebase](https://firebase.google.com/)
+## Hosted with :fire: [Firebase](https://firebase.google.com/)
