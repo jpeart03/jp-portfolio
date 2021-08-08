@@ -12,27 +12,24 @@ const projects = Astro.fetchContent('./project/*.md')
 <head>
   <MainHead title={title} />
   <style lang="scss">
-      body {
-        max-width: 100rem;
-        margin: 1rem auto 2rem auto;
-        padding: 0 2rem;
-        background: url('/assets/topo-bg.svg');
-
-        & > .main {
-          h2 {
-            display: inline-block;
-            max-width: 20rem;
-            font-size: 2.3rem;
-            border-bottom: 0.3rem solid #b00D25;
-          }
-          
-          .grid {
-            display: grid;
-            grid-gap: 3rem;
-            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-          }
+    .main {
+      h2 {
+        display: inline-block;
+        max-width: 20rem;
+        font-size: 2.3rem;
+        border-bottom: 0.3rem solid #b00D25;
+      }
+            
+      .grid {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        .card > a {
+          text-decoration: none;
+          color: inherit;
         }
       }
+    }
   </style>
 </head>
 <body>
@@ -42,7 +39,9 @@ const projects = Astro.fetchContent('./project/*.md')
       <div class="grid">
       {projects.map(p => (
         <div class="card">
-          <ProjectCard project={p}/> 
+          <a href={p.url}>
+            <ProjectCard project={p} />
+          </a>
         </div>
       ))}
       </div>

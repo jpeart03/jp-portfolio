@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: Extra Work Order Automation
 client:
   - Pepper Construction Company
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
+img: /assets/EWO.png
 description: A web application to create and process extra work orders.
 published_on: 2019-06-01 00:00:00
 tags:
