@@ -3,6 +3,9 @@ import "./styles.scss";
 const ProjectCard = ({ project }) => {
     return (
         <div className="project-card">
+            <div className="project-card__title">
+                <h2>{project.title}</h2>
+            </div>
             <div className="project-card__img">
                 <img src={project.img} alt={project.description} />
             </div>
@@ -12,7 +15,6 @@ const ProjectCard = ({ project }) => {
                 ))}
             </div>
             <div className="project-card__content">
-                <h2>{project.title}</h2>
                 <p>{project.description}</p>
             </div>
         </div>

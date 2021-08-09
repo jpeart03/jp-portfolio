@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/project.astro
-title: Extra Work Order Automation
+title: Extra Work Orders
 client:
     - Pepper Construction Company
 img: /assets/ewo_thumb.png
@@ -11,9 +11,7 @@ tags:
     - scss
     - js
     - c#
-    - asp.net core
-    - blazor
-    - sql server
+    - sql
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.

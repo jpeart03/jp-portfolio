@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/project.astro
-title: Scholarship Application
+title: ACE Scholarship
 client:
     - ACE Mentor Program Chicago
 img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
@@ -9,8 +9,7 @@ published_on: 2020-01-01 00:00:00
 tags:
     - scss
     - js
-    - react
-    - firebase
+    - firestore
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
