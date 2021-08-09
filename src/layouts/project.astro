@@ -1,7 +1,6 @@
 ---
-import MainHead from '../components/MainHead.astro'
-import IndexHeader from '../components/IndexHeader/index.jsx'
-import ProjectCard from '../components/ProjectCard/index.jsx'
+import MainHead from '../components/MainHead.astro' 
+import ProjectCard from '../components/BackButton/index.jsx'
 
 const {content} = Astro.props;
 ---
@@ -13,6 +12,9 @@ const {content} = Astro.props;
   </style>
 </head>
 <body>
+  <heading>
+  <ProjectCard />
+  </heading>
     <main class="main">
       <h2>{content.title}</h2>
       <slot></slot>

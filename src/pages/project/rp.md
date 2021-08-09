@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: Resource Planning
 client:
     - Pepper Construction Company
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
+img: /assets/rp_thumb.png
 description: Web application to assist operations leaders allocate human resources to projects.
 published_on: 2021-08-15 00:00:00
 tags:
