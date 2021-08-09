@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: ACE Scholarship
 client:
     - ACE Mentor Program Chicago
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
+img: /assets/ace_thumb.png
 description: A web application for students from under-represented groups to apply for college scholarships.
 published_on: 2020-01-01 00:00:00
 tags:
