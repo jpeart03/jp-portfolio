@@ -4,7 +4,7 @@ title: Invoice Automation
 client:
     - Pepper Construction - Corporate Accounting
     - 365 Equipment and Supply
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
+img: /assets/invoice_thumb.png
 description: A system that combines web and console applications to automate invoice processing.
 published_on: 2021-07-19 00:00:00
 tags:
