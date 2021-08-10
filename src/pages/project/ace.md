@@ -2,14 +2,14 @@
 layout: ../../layouts/project.astro
 title: ACE Scholarship
 client:
-    - ACE Mentor Program Chicago
-img: /assets/ace_thumb.png
+  - ACE Mentor Program Chicago
+img: /assets/ace-thumb.png
 description: A web application for students from under-represented groups to apply for college scholarships.
 published_on: 2020-01-01 00:00:00
 tags:
-    - scss
-    - js
-    - firestore
+  - scss
+  - js
+  - firestore
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.

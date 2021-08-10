@@ -2,13 +2,13 @@
 layout: ../../layouts/project.astro
 title: Data Visualization
 client:
-    - Pepper Construction Company
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=7
+  - Pepper Construction Company
+img: /assets/pbi-thumb.png
 description: A collection of reports and dashboards that present Pepper Construction's data.
 published_on: 2018-10-01 00:00:00
 tags:
-    - dax
-    - powerbi
+  - dax
+  - powerbi
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
