@@ -29,4 +29,4 @@ Blazor allowed me to create reusable web components, as I’d make with React, A
 
 ### Results
 
-In its first year of use, the extra work order application has processed more than 37,000 hours of work on Pepper’s job sites, accounting for more than 1.1M dollars of labor cost. The web application significantly reduces the time to approve each work order and nullifies the chance of an individual losing a work order.
+In its first year of use, the extra work order application has processed more than 37,000 hours of work on Pepper’s job sites, accounting for more than $1.1M dollars of labor cost. The web application significantly reduces the time to approve each work order and nullifies the chance of an individual losing a work order.

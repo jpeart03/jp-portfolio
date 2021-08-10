@@ -15,8 +15,18 @@ tags:
     - sql
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+### Purpose
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+Pepper Construction’s accounting team devoted an excessive amount of time processing invoices from Pepper’s sister equipment rental company, 365 Equipment and Supply (365). They asked if the development team and I could design and build a solution to automate the receipt and processing 365’s rental invoices. Our system would save Pepper’s accounting team time and eliminate opportunities for human error.
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+### Method
+
+I first interviewed employees at Pepper and 365 who worked in the accounting department. My interviews helped me identify the new system’s requirements and hurdles I was likely to face during development. To automate the existing invoice process, we designed a system with three main parts:
+
+-   Console Application: An [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-5.0) console application to get 365’s invoices, validate them, and stage them to be processed by the web application.
+-   Web application: An [ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0) web application where users can review each invoice quickly, and batch processes them.
+-   Database: [Oracle Database](https://www.oracle.com/database/) integrated into Pepper’s existing accounting system.
+
+### Results
+
+In its first three weeks, our invoice automation system has processed more than 670 invoices with a cumulative dollar value of $270,000. Additionally, the system has cut Pepper’s accounting team’s time processing 365 invoices in half.
