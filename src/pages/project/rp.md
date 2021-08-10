@@ -2,16 +2,16 @@
 layout: ../../layouts/project.astro
 title: Resource Planning
 client:
-  - Pepper Construction Company
+    - Pepper Construction Company
 img: /assets/rp-thumb.png
-description: Web application to assist operations leaders allocate human resources to projects.
+description: Web application to assist operations execs allocate human resources to projects.
 published_on: 2021-08-15 00:00:00
 tags:
-  - html
-  - css
-  - js
-  - c#
-  - sql
+    - html
+    - css
+    - js
+    - c#
+    - sql
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.

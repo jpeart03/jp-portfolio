@@ -2,20 +2,31 @@
 layout: ../../layouts/project.astro
 title: Extra Work Orders
 client:
-  - Pepper Construction Company
+    - Pepper Construction Company
 img: /assets/ewo-thumb.png
 description: A web application to create and process extra work orders.
 published_on: 2019-06-01 00:00:00
 tags:
-  - html
-  - scss
-  - js
-  - c#
-  - sql
+    - html
+    - scss
+    - js
+    - c#
+    - sql
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+### Purpose
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+Construction companies submit “extra work orders” to account for unplanned or extra work they do on a job site. These work orders were traditionally completed by hand and physically delivered to an approving authority. At Pepper, we determined that it was necessary to automate the extra work order process to expedite time to approval and tighten accountability of submitted work orders.
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+### Method
+
+I interviewed six members of Pepper Construction’s Self Perform Group to identify requirements for the technology solution. I then built initial mockups using Adobe XD to share with end users, gather their feedback, and iterate the design. Finally, I created the web application with the following technologies:
+
+-   Frontend: [ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
+-   Backend: [ASP.NET Core Web API](https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-5.0), [SQL Server Database](https://www.microsoft.com/en-us/sql-server/sql-server-2019)
+
+Blazor allowed me to create reusable web components, as I’d make with React, Angular, or Vue, but written primarily in C# instead of JavaScript. I wanted to create a more seamless experience for the application’s users and write more manageable code but stay within the ASP.NET Core ecosystem.
+
+### Results
+
+In its first year of use, the extra work order application has processed more than 37,000 hours of work on Pepper’s job sites, accounting for more than 1.1M dollars of labor cost. The web application significantly reduces the time to approve each work order and nullifies the chance of an individual losing a work order.
