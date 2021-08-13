@@ -4,7 +4,7 @@ title: Extra Work Orders
 client:
     - Pepper Construction Company
 img: /assets/ewo-thumb.png
-description: A web application to create and process extra work orders.
+description: A web application to create and process extra work orders on construction job sites.
 published_on: 2019-06-01 00:00:00
 tags:
     - html
@@ -25,7 +25,7 @@ I interviewed six members of Pepper Construction’s Self Perform Group to ident
 -   Frontend: [ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
 -   Backend: [ASP.NET Core Web API](https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-5.0), [SQL Server Database](https://www.microsoft.com/en-us/sql-server/sql-server-2019)
 
-Blazor allowed me to create reusable web components, as I’d make with React, Angular, or Vue, but written primarily in C# instead of JavaScript. I wanted to create a more seamless experience for the application’s users and write more manageable code but stay within the ASP.NET Core ecosystem.
+Blazor allowed me to create reusable web components, as I’d make with React or Angular, but written primarily in C# instead of JavaScript. I wanted to create a more seamless experience for the application’s users and write more manageable code but stay within the ASP.NET Core ecosystem.
 
 ### Results
 

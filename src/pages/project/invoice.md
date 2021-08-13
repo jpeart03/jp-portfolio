@@ -17,7 +17,7 @@ tags:
 
 ### Purpose
 
-Pepper Construction’s accounting team devoted an excessive amount of time processing invoices from Pepper’s sister equipment rental company, 365 Equipment and Supply (365). They asked if the development team and I could design and build a solution to automate the receipt and processing 365’s rental invoices. Our system would save Pepper’s accounting team time and eliminate opportunities for human error.
+Pepper Construction’s accounting team devoted an excessive amount of time processing invoices from their sister equipment rental company, 365 Equipment and Supply (365). They asked if the development team and I could design and build a solution to automate the receipt and processing 365’s rental invoices. Our system would save Pepper’s accounting team time and eliminate opportunities for human error.
 
 ### Method
 
