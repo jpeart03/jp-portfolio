@@ -2,21 +2,22 @@
 layout: ../../layouts/project.astro
 title: Invoice Automation
 client:
-  - Pepper Construction - Corporate Accounting
-  - 365 Equipment and Supply
+    - Pepper Construction - Corporate Accounting
+    - 365 Equipment and Supply
 img: /assets/invoice-thumb.png
 images:
-  - https://images.unsplash.com/photo-1597421496967-de75b7be7048?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
-  - https://images.unsplash.com/photo-1465990138262-b7c355d1ef90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
-  - https://images.unsplash.com/photo-1628020681459-36f808315107?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+    - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/365Invoices_login.png?alt=media&token=feff2177-bb9b-4f94-a568-736b21aa09dc
+    - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/365Invoices_grid.png?alt=media&token=f5509bfc-61dc-4dee-9727-139756a31b4d
+    - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/365Invoices_void.png?alt=media&token=5fa1c37f-7920-40f1-a643-117ec1ba355c
 description: A system that combines web and console applications to automate invoice processing.
 published_on: 2021-07-19 00:00:00
 tags:
-  - html
-  - css
-  - js
-  - c#
-  - sql
+    - html
+    - css
+    - js
+    - c#
+    - sql
+sequence: 5
 ---
 
 ### Purpose
@@ -27,9 +28,9 @@ Pepper Construction’s accounting team devoted an excessive amount of time proc
 
 I first interviewed employees at Pepper and 365 who worked in the accounting department. My interviews helped me identify the new system’s requirements and hurdles I was likely to face during development. To automate the existing invoice process, we designed a system with three main parts:
 
-- Console Application: An [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-5.0) console application to get 365’s invoices, validate them, and stage them to be processed by the web application.
-- Web application: An [ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0) web application where users can review each invoice quickly, and batch processes them.
-- Database: [Oracle Database](https://www.oracle.com/database/) integrated into Pepper’s existing accounting system.
+-   Console Application: An [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-5.0) console application to get 365’s invoices, validate them, and stage them to be processed by the web application.
+-   Web application: An [ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0) web application where users can review each invoice quickly, and batch processes them.
+-   Database: [Oracle Database](https://www.oracle.com/database/) integrated into Pepper’s existing accounting system.
 
 ### Results
 

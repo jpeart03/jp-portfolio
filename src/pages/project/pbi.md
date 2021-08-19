@@ -2,17 +2,18 @@
 layout: ../../layouts/project.astro
 title: Data Visualization
 client:
-  - Pepper Construction Company
+    - Pepper Construction Company
 img: /assets/pbi-thumb.png
 images:
-  - https://images.unsplash.com/photo-1597421496967-de75b7be7048?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
-  - https://images.unsplash.com/photo-1465990138262-b7c355d1ef90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
-  - https://images.unsplash.com/photo-1628020681459-36f808315107?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+    - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/PBI_Sales.png?alt=media&token=0840b86a-b5aa-4cbb-bc0c-9fe7330d78b6
+    - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/PBI_Market.png?alt=media&token=10f3a137-3345-41d8-bf38-202b15463321
+    - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/PBI_EWO.png?alt=media&token=884bd61c-32e1-4df8-a8a3-3592bfe70622
 description: A collection of reports and dashboards that present Pepper Construction's data.
 published_on: 2018-10-01 00:00:00
 tags:
-  - dax
-  - powerbi
+    - dax
+    - powerbi
+sequence: 2
 ---
 
 ### Purpose

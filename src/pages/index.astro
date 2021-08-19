@@ -6,13 +6,14 @@ import ProjectCard from '../components/ProjectCard/index.jsx'
 const title = 'Jim Peart - Web Developer';
 const projects = Astro.fetchContent('./project/*.md')
   .filter(({published_on}) => !!published_on)
-  .sort((a, b) => new Date(b.published_on) - new Date(a.published_on));
+  .sort((a, b) => a.sequence - b.sequence)
 ---
 <html lang="en">
 <head>
   <MainHead title={title} />
   <style lang="scss">
     .main {
+      margin-bottom: 5rem;
       h2 {
         display: inline-block;
         max-width: 20rem;
