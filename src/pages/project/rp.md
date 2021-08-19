@@ -2,16 +2,20 @@
 layout: ../../layouts/project.astro
 title: Resource Planning
 client:
-    - Pepper Construction Company
+  - Pepper Construction Company
 img: /assets/rp-thumb.png
-description: Web application to assist operations execs allocate human resources to projects.
+images:
+  - https://images.unsplash.com/photo-1597421496967-de75b7be7048?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+  - https://images.unsplash.com/photo-1465990138262-b7c355d1ef90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+  - https://images.unsplash.com/photo-1628020681459-36f808315107?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+description: Web application to assist operations leaders allocate human resources to projects.
 published_on: 2021-08-15 00:00:00
 tags:
-    - html
-    - css
-    - js
-    - c#
-    - sql
+  - html
+  - css
+  - js
+  - c#
+  - sql
 ---
 
 ### Purpose
@@ -20,7 +24,7 @@ For a construction project to be successful, it is crucial to assign the correct
 
 ### Method
 
-We built the resource planning web application with ASP.NET Core. The resource planning app presents the user with an interactive table that illustrates project requirements at different levels: from the employee to the department level. The table’s data is pulled directly from Pepper’s ERP system’s Oracle database.
+We built the resource planning web application with ASP.NET Core. The resource planning app presents the user with an interactive table that illustrates project requirements at different levels: from the employee to the department level. The table’s data is pulled directly from Pepper’s Oracle database.
 
 ### Results
 
