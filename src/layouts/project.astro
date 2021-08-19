@@ -10,6 +10,7 @@ const {content} = Astro.props;
   <MainHead title={`Jim Peart - ${content.title}`} />
   <style lang="scss">
     .main {
+      margin: 2rem 0;
       background-color: rgba(255,255,255,0.7);
     } 
 
@@ -23,7 +24,7 @@ const {content} = Astro.props;
       <h2>{content.title}</h2>
       <ImageSlider client:load images={content.images} />
       <slot></slot>
-      <BackButton />
     </main>
+      <BackButton />
 </body>
 </html>
