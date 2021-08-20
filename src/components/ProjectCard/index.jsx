@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
         <h3>{project.title}</h3>
       </div>
       <div className="project-card__img">
-        <img src={project.img} alt={project.description} />
+        <img src={project.img} alt={`${project.title} graphic`} />
       </div>
       <div className="project-card__tags">
         {project.tags.map((t) => (
