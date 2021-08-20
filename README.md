@@ -1,4 +1,4 @@
-#[jimpeart.dev](https://jimpeart.dev)
+# [jimpeart.dev](https://jimpeart.dev)
 
 Made with :rocket: [Astro](https://astro.build)
 
