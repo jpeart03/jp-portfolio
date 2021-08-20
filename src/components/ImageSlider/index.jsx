@@ -1,6 +1,6 @@
 import { useState } from "preact/hooks";
 import "./styles.scss";
-import chevron from "./chev.png";
+import chevron from "../../../public/assets/chev.png";
 
 const ImageSlider = ({ images }) => {
   const touchTrigger = 50;

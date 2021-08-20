@@ -1,24 +1,22 @@
 .back {
-    line-height: 1rem;
-    display: inline-block;
-    padding: 0.5rem;
-    background-color: #191c23;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    a {
-        text-decoration: none;
-        color: #fff;
-        img {
-            background-color: transparent;
-            height: 1.1rem;
-            transform: translateY(0.2rem);
-        }
-        span {
-            font-family: "Space Mono", monospace;
-            margin-left: 1rem;
-            transition: color 150ms ease;
-            &:hover {
-                color: #b00d25;
-            }
-        }
-    }
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #191c23;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  &:hover {
+    background-color: #b00d25;
+  }
+  &:hover > svg {
+    color: #fff;
+  }
+  svg {
+    font-size: 1.5rem;
+    color: #b00d25;
+    transform: translateY(0.2rem);
+  }
+  span {
+    font-family: "Space Mono", monospace;
+    margin-left: 0.75rem;
+  }
 }
