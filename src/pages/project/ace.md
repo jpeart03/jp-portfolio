@@ -8,7 +8,7 @@ images:
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/ACE_landing.png?alt=media&token=2b90d23f-103c-4f5d-b818-9b1d79f9cc28
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/ACE_application.png?alt=media&token=bc667039-3256-42e5-a7c4-2c8f66d1c5d6
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/ACE_help.png?alt=media&token=19858904-9955-4d1e-a721-99428756cc29
-description: A scholarship application website for students pursuing degrees in architecture, construction, or engineering.
+description: Scholarship application website for students pursuing degrees in architecture, construction, or engineering.
 published_on: 2020-01-01 00:00:00
 tags:
     - scss
