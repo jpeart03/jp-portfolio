@@ -8,7 +8,7 @@ images:
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/PBI_Sales.png?alt=media&token=0840b86a-b5aa-4cbb-bc0c-9fe7330d78b6
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/PBI_Market.png?alt=media&token=10f3a137-3345-41d8-bf38-202b15463321
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/PBI_EWO.png?alt=media&token=884bd61c-32e1-4df8-a8a3-3592bfe70622
-description: A collection of reports and dashboards that present Pepper Construction's data.
+description: Collection of reports and dashboards that present Pepper Construction's data.
 published_on: 2018-10-01 00:00:00
 tags:
     - dax

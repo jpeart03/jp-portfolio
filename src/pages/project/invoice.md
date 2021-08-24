@@ -9,7 +9,7 @@ images:
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/365Invoices_login.png?alt=media&token=feff2177-bb9b-4f94-a568-736b21aa09dc
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/365Invoices_grid.png?alt=media&token=f5509bfc-61dc-4dee-9727-139756a31b4d
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/365Invoices_void.png?alt=media&token=5fa1c37f-7920-40f1-a643-117ec1ba355c
-description: A system that combines web and console applications to automate invoice processing.
+description: System that combines web and console applications to automate invoice processing.
 published_on: 2021-07-19 00:00:00
 tags:
     - html

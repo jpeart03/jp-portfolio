@@ -8,7 +8,7 @@ images:
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/EWO_jobs.png?alt=media&token=e172b063-650c-4f1a-a374-0b43281ce6fa
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/EWO_tickets.png?alt=media&token=74842959-5d3f-4cba-a266-a07b94efebef
     - https://firebasestorage.googleapis.com/v0/b/jp-portfolio-2807c.appspot.com/o/EWO_pdfexport.png?alt=media&token=dac16099-fa36-4c2d-92a3-9ce93f6b401c
-description: A web application to create and process extra work orders on construction job sites.
+description: Web application to create and process extra work orders on construction job sites.
 published_on: 2019-06-01 00:00:00
 tags:
     - html
